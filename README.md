@@ -11,7 +11,7 @@ NOTE: For the purpose of public safety, assume that a buffer of three seats and/
 * To compile - javac <package_name>\Main.java
 * To execute program - java <package_name>.Main <input_file_path>
 * Program will print output file path and/or messages for each request.
-* To compile tests - 
+* To compile tests - Go to directory in which pom.xml is located and execute the command - mvn clean test -Dtest=MovieSeatingTest
 
 ## Assumptions
 * Solution designed is for the given theatre layout of 10 rows with 20 seats each.
